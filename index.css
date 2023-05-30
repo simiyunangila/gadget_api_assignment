@@ -1,0 +1,85 @@
+.logo {
+    background-color: #000000;
+    overflow: hidden;
+  }
+  .logo h1{
+    color: #f2f2f2;
+    margin-bottom: -4%;
+    margin-left: 4%;
+  }
+  .logo button{background-color: yellow;
+  float: right;
+  color:black ;
+  padding: 20px 40px;
+  margin-right: 15%;
+  margin-top: -5%;
+margin-bottom: 2%;}
+  
+  
+  .logo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .logo li {
+    float: left;
+  /* margin-left: 20%; */
+  }
+  
+  .logo li a {
+    display: block;
+    color: white;
+    /* text-align: center; */
+    padding: 20px 22px;
+    text-decoration: none;
+    margin-left: 200%;
+    
+  }
+  
+   li a:hover {
+    background-color: #111;
+  }
+
+
+
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.items{
+    border:solid rgb(198, 203,198 ) ;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 20%;
+}
+/* #mages{
+    width: 30%;
+    
+} */
+footer {
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .footer-item {
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    font-size: 14px;
+    color: #f2f2f2;
+  }
+  /* #img{
+    width: 20%;
+  } */
+  #mages{
+    margin-left: 35px;
+    width:90%;
+    padding: 20px;
+    height: auto;
+  }
