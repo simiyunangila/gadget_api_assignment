@@ -25,25 +25,17 @@ margin-bottom: 2%;}
   
   .logo li {
     float: left;
-  /* margin-left: 20%; */
   }
   
   .logo li a {
     display: block;
     color: white;
-    /* text-align: center; */
     padding: 20px 22px;
     text-decoration: none;
     margin-left: 200%;
-    
+  
   }
   
-   li a:hover {
-    background-color: #111;
-  }
-
-
-
 
 #products{
     display: flex;
@@ -58,10 +50,10 @@ margin-bottom: 2%;}
     text-align: center;
     width: 20%;
 }
-/* #mages{
-    width: 30%;
-    
-} */
+.items img{
+  width: 100%;
+}
+
 footer {
     background-color: #000000;
     padding: 20px;
@@ -70,16 +62,30 @@ footer {
   .footer-item {
     display: inline-block;
     justify-content: space-evenly;
-    margin-right: 50px;
+    margin-right: 60px;
     font-size: 14px;
     color: #f2f2f2;
   }
-  /* #img{
-    width: 20%;
-  } */
+
   #mages{
     margin-left: 35px;
     width:90%;
     padding: 20px;
-    height: auto;
+    height: 70vh;
+  }
+  .two img{
+    width: 40%;
+    
+  }
+  .two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  #last{
+    margin-left: 5%;
+    width:87%;
+    padding: 20px;
+    height: 70vh;
+ 
   }
